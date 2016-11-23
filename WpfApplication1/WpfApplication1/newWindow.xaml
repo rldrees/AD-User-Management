@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfApplication1.newWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="New User Creation" Height="500" Width="300">
+    <Grid>
+        <TextBox x:Name="UsernameEntry" HorizontalAlignment="Left" Height="23" Margin="10,76,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="UsernameLabel" Content="Username:" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox x:Name="PasswordEntry" HorizontalAlignment="Left" Height="23" Margin="10,148,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="PasswordLabel" Content="Password:" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox x:Name="FirstNameEntry" HorizontalAlignment="Left" Height="23" Margin="151,76,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="FirstNameLabel" Content="First Name:" HorizontalAlignment="Left" Margin="151,45,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox x:Name="LastNameEntry" HorizontalAlignment="Left" Height="23" Margin="151,148,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="LastNameLabel" Content="Last Name:" HorizontalAlignment="Left" Margin="151,117,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox x:Name="LocationEntry" HorizontalAlignment="Left" Height="23" Margin="10,218,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="LocationLabel" Content="Location:" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox x:Name="ManagerEntry" HorizontalAlignment="Left" Height="23" Margin="10,300,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="ManagerLabel" Content="Manager:" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="JobTitleEntry" HorizontalAlignment="Left" Height="23" Margin="10,380,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="JobTitleLabel" Content="Job Title:" HorizontalAlignment="Left" Margin="10,349,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="PhoneExtEntry" HorizontalAlignment="Left" Height="23" Margin="151,218,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="PhoneExtLabel" Content="Extension:" HorizontalAlignment="Left" Margin="148,187,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="PhoneFullEntry" HorizontalAlignment="Left" Height="23" Margin="148,300,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="131"/>
+        <Label x:Name="PhoneFullLabel" Content="Phone Number:" HorizontalAlignment="Left" Margin="148,269,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="Create" Content="Create" Click="CreateClicked" HorizontalAlignment="Left" Margin="226,439,0,0" VerticalAlignment="Top" Width="56"/>
+    </Grid>
+</Window>
